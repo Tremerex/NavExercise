@@ -53,13 +53,13 @@ At a high level the navigation will have two main states:
 
 ## Get Started
 
-###Requirements
+### Requirements
 * Node.js and npm (You get both when you <a href="https://docs.npmjs.com/getting-started/installing-node">install Node.js</a>.)
 
-###Install and excecute the exercise locally
+### Install and excecute the exercise locally
 
 ````
-git clone git@github.com:hugeinc/NavExercise.git
+git clone https://github.com/Tremerex/NavExercise.git
 cd NavExercise
 # --- Install all dependecies ---
 sudo npm install
@@ -69,7 +69,7 @@ npm run build
 npm start
 ````
 
-###To Run Test Cases (E2E)
+### To Run Test Cases (E2E)
 
 ```bash
 # --- In command shell 1 ---
