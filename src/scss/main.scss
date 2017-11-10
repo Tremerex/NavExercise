@@ -1,0 +1,60 @@
+@import "/variables.scss";
+@import "/fonts.scss";
+@import "/common.scss";
+@import "/header.scss";
+
+.main-content {
+    position: relative;
+    .banner-wrapper {
+        .headline {
+            position: relative;
+            font-size: 44px;
+            margin: 50px 0px 0px 24px;
+            color: $color-black;
+            transform: initial;
+            text-align: left;
+            left: 0;
+        }
+        .banner {
+            min-height: 240px;
+            overflow: hidden;
+            background: url('/images/background-image.jpg') center;
+            background-size: cover;
+        }
+    }
+    .body-title {
+        font: $secondary-navigation;
+        max-width: 968px;
+        margin: 0 auto;
+        padding: 50px 24px;
+        & > p {
+            line-height: 2;
+        }
+    }
+}
+
+@media #{$desktop} {
+    .main-content {
+        .banner-wrapper {
+            position: relative;
+            .headline {
+                position: absolute;
+                font-size: 100px;
+                margin: 0;
+                color: $color-white;
+                width: 80%;
+                top: 50%;
+                left: 50%;
+                text-align: center;
+                transform: translate(-50%,-50%);
+            }
+            .banner {
+                width: 100%;
+                min-height: 640px;
+            }
+        }
+        .body-title {
+            padding: 60px 0;
+        }
+    }
+}
