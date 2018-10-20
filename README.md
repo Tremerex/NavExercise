@@ -62,7 +62,7 @@ At a high level the navigation will have two main states:
 git clone https://github.com/Tremerex/NavExercise.git
 cd NavExercise
 # --- Install all dependecies ---
-sudo npm install
+sudo npm i
 # --- Compilate scss and js files ---
 npm run build
 # --- Start app ---
